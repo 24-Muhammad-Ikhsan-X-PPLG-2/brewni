@@ -5,6 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Uprak DPK</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/engine.js"></script>
   </head>
-  <body></body>
+  <body class="overflow-x-hidden overflow-y-hidden">
+    <div
+      id="loader"
+      class="fixed w-full h-full z-9999 bg-white flex justify-center items-center transition duration-300"
+    >
+      <div class="loader"></div>
+    </div>
+    <div data-component="navbar"></div>
+    <div data-component="hero-section"></div>
+    <section class="min-h-screen">
+      <h2
+        class="text-center mt-20 text-red-500 lg:text-4xl md:text-3xl text-2xl font-great-vibes"
+      >
+        About Us
+      </h2>
+      <h1
+        class="text-center text-[#17623b] font-bebas-neue font-bold text-6xl mt-5 max-w-lg mx-auto"
+      >
+        THE HEART BEHIND EVERY BREW EXPERIENCE
+      </h1>
+      <div class="flex w-full justify-center items-center">
+        <div class="mt-5 grid grid-cols-3">
+          <div class="grid grid-rows-2 w-100">
+            <div
+              class="bg-[#f0f0f0] w-full h-50 p-2 rounded shadow border border-white/30"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("engine:ready", () => {
+        const loader = document.getElementById("loader");
+        loader.classList.add("opacity-0", "pointer-events-none");
+        document.body.classList.remove("overflow-y-hidden");
+        setTimeout(() => {
+          loader.remove();
+        }, 600);
+      });
+    </script>
+  </body>
 </html>

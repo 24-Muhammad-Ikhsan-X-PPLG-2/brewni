@@ -1,0 +1,31 @@
+<template>
+  <nav
+    id="navbar"
+    class="bg-[#17623b] w-full fixed top-0 inset-0 z-999 flex h-fit"
+  >
+    <div
+      class="h-20 text-white md:px-14 px-4 flex items-center justify-between w-full"
+    >
+      <p
+        class="text-4xl tracking-widest font-bebas-neue [text-shadow:3px_3px_0px_rgba(0,0,0,1)] font-black"
+      >
+        BREWNI
+      </p>
+      <div class="lg:flex hidden items-center gap-6 text-sm font-normal">
+        <a href="#" class="font-semibold">HOME</a>
+        <a href="#">PAGES</a>
+        <a href="#">LOCATION</a>
+        <a href="#">MENU</a>
+        <a href="#">ORDER</a>
+      </div>
+      <button
+        class="px-7 py-3 bg-[#f2bf4a] border-2 border-[#28543A] rounded-2xl shadow-[0px_4px_0px_#28543A] font-bold text-[#28543A] uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
+      >
+        MAKE ORDER
+      </button>
+    </div>
+  </nav>
+</template>
+<script>
+  export default {};
+</script>
