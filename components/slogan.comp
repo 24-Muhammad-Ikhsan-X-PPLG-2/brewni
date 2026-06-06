@@ -22,7 +22,7 @@
     />
   </svg>
   <section
-    class="h-fit whitespace-nowrap bg-[#f2bf4a] px-4 gap-20 items-center overflow-hidden relative flex z-2"
+    class="h-fit justify-center whitespace-nowrap bg-[#f2bf4a] px-4 gap-20 items-center overflow-hidden relative flex z-2"
     id="slogan"
   >
     <div class="flex items-center gap-5">
