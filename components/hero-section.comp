@@ -12,12 +12,16 @@
             FRESHLY BREWED COFFEE
           </p>
           <div
-            class="absolute w-fit h-fit lg:left-90 lg:top-32 md:left-32 left-25 -bottom-8"
+            class="absolute w-fit h-fit lg:left-90 lg:top-32 md:left-32 left-28 md:-bottom-8 -bottom-3"
           >
             <div class="relative w-fit h-fit">
-              <img src="assets/svg/starbust.svg" class="lg:w-40 w-24" alt="" />
+              <img
+                src="assets/svg/starbust.svg"
+                class="lg:w-40 md:w-24 w-18"
+                alt=""
+              />
               <p
-                class="absolute top-1/2 -translate-y-1/2 text-center lg:text-base text-sm font-bold -rotate-12 left-1/2 -translate-x-1/2"
+                class="absolute top-1/2 -translate-y-1/2 text-center lg:text-base md:text-sm text-[10px] font-bold -rotate-12 left-1/2 -translate-x-1/2"
               >
                 GOOD VIBES
               </p>
@@ -81,6 +85,7 @@
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 1200 80"
     preserveAspectRatio="none"
+    class="-mt-1"
     style="display: block; width: 100%; height: 40px"
   >
     <path

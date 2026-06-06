@@ -1,0 +1,105 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1200 120"
+    preserveAspectRatio="none"
+    class="-mb-2"
+  >
+    <path
+      d="M0,120 L0,50 
+             L20,52 L40,48 L60,54 L80,49 L100,55 L120,51 
+             L140,58 L160,53 L180,60 L200,56 L220,62 L240,58 
+             L260,65 L280,59 L300,61 L320,57 L340,63 L360,58 
+             L380,54 L400,50 L420,53 L440,48 L460,55 L480,50 
+             L500,52 L520,49 L540,54 L560,51 L580,48 L600,53 
+             L620,49 L640,52 L660,47 L680,50 L700,46 L720,51 
+             L740,48 L760,52 L780,49 L800,54 L820,50 L840,55 
+             L860,52 L880,57 L900,53 L920,58 L940,55 L960,61 
+             L980,56 L1000,62 L1020,57 L1040,60 L1060,55 L1080,59 
+             L1100,54 L1120,51 L1140,48 L1160,52 L1180,49 L1200,53 
+             L1200,120 Z"
+      fill="#f2bf4a"
+    />
+  </svg>
+  <div
+    class="h-fit whitespace-nowrap bg-[#f2bf4a] px-4 gap-20 items-center overflow-hidden relative flex z-2"
+    id="slogan"
+  >
+    <div class="flex items-center gap-5">
+      <img src="assets/svg/coffe-cup-green.svg" class="w-12" alt="" />
+      <p
+        class="lg:text-5xl md:text-4xl text-3xl font-bebas-neue tracking-wider font-black text-[#17623b]"
+      >
+        EASY FEELS
+      </p>
+    </div>
+    <div class="flex items-center gap-5">
+      <img src="assets/svg/coffe-cup-green.svg" class="w-12" alt="" />
+      <p
+        class="lg:text-5xl md:text-4xl text-3xl font-bebas-neue tracking-wider font-black text-[#17623b]"
+      >
+        FRESH BREW
+      </p>
+    </div>
+    <div class="flex items-center gap-5">
+      <img src="assets/svg/coffe-cup-green.svg" class="w-12" alt="" />
+      <p
+        class="lg:text-5xl md:text-4xl text-3xl font-bebas-neue tracking-wider font-black text-[#17623b]"
+      >
+        TAKE A BREAK
+      </p>
+    </div>
+    <div class="flex items-center gap-5">
+      <img src="assets/svg/coffe-cup-green.svg" class="w-12" alt="" />
+      <p
+        class="lg:text-5xl md:text-4xl text-3xl font-bebas-neue tracking-wider font-black text-[#17623b]"
+      >
+        PURE ARABICA
+      </p>
+    </div>
+    <div class="flex items-center gap-5">
+      <img src="assets/svg/coffe-cup-green.svg" class="w-12" alt="" />
+      <p
+        class="lg:text-5xl md:text-4xl text-3xl font-bebas-neue tracking-wider font-black text-[#17623b]"
+      >
+        DAILY BOOST
+      </p>
+    </div>
+    <div class="flex items-center gap-5">
+      <img src="assets/svg/coffe-cup-green.svg" class="w-12" alt="" />
+      <p
+        class="lg:text-5xl md:text-4xl text-3xl font-bebas-neue tracking-wider font-black text-[#17623b]"
+      >
+        GOOD VIBES ONLY
+      </p>
+    </div>
+  </div>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1200 120"
+    preserveAspectRatio="none"
+    class="rotate-180 -mt-2"
+  >
+    <path
+      d="M0,120 L0,50 
+             L20,52 L40,48 L60,54 L80,49 L100,55 L120,51 
+             L140,58 L160,53 L180,60 L200,56 L220,62 L240,58 
+             L260,65 L280,59 L300,61 L320,57 L340,63 L360,58 
+             L380,54 L400,50 L420,53 L440,48 L460,55 L480,50 
+             L500,52 L520,49 L540,54 L560,51 L580,48 L600,53 
+             L620,49 L640,52 L660,47 L680,50 L700,46 L720,51 
+             L740,48 L760,52 L780,49 L800,54 L820,50 L840,55 
+             L860,52 L880,57 L900,53 L920,58 L940,55 L960,61 
+             L980,56 L1000,62 L1020,57 L1040,60 L1060,55 L1080,59 
+             L1100,54 L1120,51 L1140,48 L1160,52 L1180,49 L1200,53 
+             L1200,120 Z"
+      fill="#f2bf4a"
+    />
+  </svg>
+</template>
+<script>
+  document.addEventListener("engine:ready", () => {
+    const slogan = document.getElementById("slogan");
+  });
+  export default {};
+</script>

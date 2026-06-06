@@ -1,0 +1,117 @@
+<template>
+  <section class="">
+    <h2
+      class="text-center mt-20 text-red-500 lg:text-4xl md:text-3xl text-2xl font-great-vibes"
+    >
+      About Us
+    </h2>
+    <h1
+      class="text-center text-[#17623b] font-bebas-neue font-bold lg:text-6xl md:text-5xl text-4xl mt-5 max-w-lg mx-auto"
+    >
+      THE HEART BEHIND EVERY BREW EXPERIENCE
+    </h1>
+    <div class="flex w-full justify-center items-center pb-10">
+      <div class="mt-5 grid lg:grid-cols-3 grid-cols-1 gap-5">
+        <div class="grid grid-rows-2 w-100 gap-5">
+          <div
+            class="bg-[#f0f0f0] w-full flex justify-between flex-col h-55 p-5 rounded-xl shadow-sm border border-white/30"
+          >
+            <div
+              class="p-2 rounded-lg flex justify-center items-center bg-[#17623b] h-fit w-fit"
+            >
+              <img src="assets/svg/coffee-putih.svg" class="w-8" alt="" />
+            </div>
+            <div class="">
+              <h1
+                class="text-3xl font-bold font-bebas-neue tracking-wider text-[#17623b]"
+              >
+                SPECIALTY COFFEE
+              </h1>
+              <p class="text-gray-500 mt-1">
+                Expert crafted with passion and care. Savor the rich taste of
+                specialty coffee.
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-[#f0f0f0] w-full flex justify-between flex-col h-55 p-5 rounded-xl shadow-sm border border-white/30"
+          >
+            <div
+              class="p-2 rounded-lg flex justify-center items-center bg-[#17623b] h-fit w-fit"
+            >
+              <img src="assets/svg/coffee-cup-putih.svg" class="w-8" alt="" />
+            </div>
+            <div class="">
+              <h1
+                class="text-3xl font-bold font-bebas-neue tracking-wider text-[#17623b]"
+              >
+                COZY AMBIANCE
+              </h1>
+              <p class="text-gray-500 mt-1">
+                Soft lights and relaxing vibes surround you. Enjoy every momment
+                in our cozy ambiance.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/img/coffe-baker.webp"
+          class="object-cover w-100 h-115 rounded-xl shadow-sm"
+          alt=""
+        />
+        <div class="grid grid-rows-2 w-100 gap-5">
+          <div
+            class="bg-[#f0f0f0] w-full flex justify-between flex-col h-55 p-5 rounded-xl shadow-sm border border-white/30"
+          >
+            <div
+              class="p-2 rounded-lg flex justify-center items-center bg-[#17623b] h-fit w-fit"
+            >
+              <img src="assets/svg/coffee-roaster.svg" class="w-8" alt="" />
+            </div>
+            <div class="">
+              <h1
+                class="text-3xl font-bold font-bebas-neue tracking-wider text-[#17623b]"
+              >
+                FRESHLY BAKED GOODS
+              </h1>
+              <p class="text-gray-500 mt-1">
+                Baked fresh daily with love and care. Taste the homemade warmth
+                in every bite.
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-[#f0f0f0] w-full flex justify-between flex-col h-55 p-5 rounded-xl shadow-sm border border-white/30"
+          >
+            <div
+              class="p-2 rounded-lg flex justify-center items-center bg-[#17623b] h-fit w-fit"
+            >
+              <img src="assets/svg/coffee-pot.svg" class="w-8" alt="" />
+            </div>
+            <div class="">
+              <h1
+                class="text-3xl font-bold font-bebas-neue tracking-wider text-[#17623b]"
+              >
+                EXPERT BARISTAS
+              </h1>
+              <p class="text-gray-500 mt-1">
+                Skilled hands craft cup perfectly. Experience coffee made by
+                expert baristas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full flex justify-center mb-20">
+      <button
+        class="px-7 mt-5 py-3 bg-[#17623b] border-2 border-gray-800 rounded-2xl shadow-[0px_4px_0px_#1f2937] font-bold text-white uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
+      >
+        READ MORE
+      </button>
+    </div>
+  </section>
+</template>
+<script>
+  export default {};
+</script>
