@@ -1,9 +1,11 @@
 <template>
   <main
-    class="min-h-screen overflow-hidden bg-[#17623b] pb-15 pt-32 flex flex-col justify-center items-center"
+    class="min-h-screen overflow-hidden bg-[#17623b] pb-15 pt-32 flex flex-col justify-center items-center w-full"
   >
-    <div class="grid lg:grid-cols-2 grid-cols-1 gap-10">
-      <div class="w-full md:max-w-lg text-white px-4 lg:order-1 order-2">
+    <div class="grid lg:grid-cols-2 grid-cols-1 gap-15">
+      <div
+        class="w-full md:max-w-lg text-white px-4 lg:px-10 lg:order-1 order-2"
+      >
         <div class="relative w-fit h-fit">
           <p
             class="lg:text-7xl md:text-6xl text-5xl tracking-wide font-bold font-bebas-neue"
@@ -11,22 +13,6 @@
             START <span class="text-[#f2bf4a]">YOUR DAY</span> RIGHT WITH
             FRESHLY BREWED COFFEE
           </p>
-          <div
-            class="absolute w-fit h-fit lg:left-90 lg:top-32 md:left-32 left-28 md:-bottom-8 -bottom-3"
-          >
-            <div class="relative w-fit h-fit">
-              <img
-                src="assets/svg/starbust.svg"
-                class="lg:w-40 md:w-24 w-18"
-                alt=""
-              />
-              <p
-                class="absolute top-1/2 -translate-y-1/2 text-center lg:text-base md:text-sm text-[10px] font-bold -rotate-12 left-1/2 -translate-x-1/2"
-              >
-                GOOD VIBES
-              </p>
-            </div>
-          </div>
         </div>
         <p class="mt-5 max-w-sm font-light">
           Start your day right with freshly brewed coffee made to energize your
@@ -68,7 +54,9 @@
           </div>
         </div>
       </div>
-      <div class="w-full relative flex justify-center lg:order-2 order-1">
+      <div
+        class="w-full relative flex justify-center lg:order-2 order-1 h-fit max-w-md mx-auto"
+      >
         <div
           class="md:w-[400px] md:h-[400px] w-[250px] h-[250px] bg-white p-2 rounded-xl rotate-6"
         >
@@ -80,7 +68,7 @@
         </div>
 
         <div
-          class="lg:w-[300px] bottom-0 md:left-0 left-15 absolute lg:h-[300px] w-[150px] h-[150px] md:w-[200px] md:h-[200px] bg-white p-2 rounded-xl -rotate-6"
+          class="absolute lg:-bottom-25 -bottom-5 md:-left-15 left-10 lg:w-[300px] lg:h-[300px] md:w-[200px] md:h-[200px] w-[150px] h-[150px] bg-white p-2 rounded-xl -rotate-6 z-10"
         >
           <img
             src="assets/img/coffee-display.webp"

@@ -1,0 +1,234 @@
+<template>
+  <section class="overflow-hidden">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 80"
+      preserveAspectRatio="none"
+      class="-mb-1 rotate-180"
+      style="display: block; width: 100%; height: 40px"
+    >
+      <path
+        d="M0,0 H1200 V60 
+           L1180,58 L1145,63 L1110,56 L1080,61 L1030,57 
+           L995,62 L960,59 L915,63 L880,58 L835,62 
+           L800,56 L765,61 L720,58 L685,63 L640,57 
+           L600,62 L565,58 L525,61 L490,56 L445,63 
+           L410,59 L365,62 L320,57 L285,61 L245,56 
+           L210,63 L165,58 L130,62 L90,57 L50,61 
+           L25,58 L0,62 Z"
+        fill="#17623b"
+      />
+    </svg>
+    <div class="relative z-2 bg-[#17623b]">
+      <p
+        class="md:text-3xl text-2xl font-great-vibes pt-20 text-center text-[#f2bf4a]"
+      >
+        Our Menu
+      </p>
+      <div
+        class="text-center font-bebas-neue lg:text-6xl md:text-5xl text-4xl mt-3 text-white font-bold"
+      >
+        <h1>YOUR FAVORITE BREWS AND BITES,</h1>
+        <h1>ALL IN ONE MENU</h1>
+      </div>
+      <div class="flex flex-wrap gap-3 mt-10 w-full justify-center">
+        <div
+          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a]"
+        >
+          <p>Mexican</p>
+        </div>
+        <div
+          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a]"
+        >
+          <p>Japanese</p>
+        </div>
+        <div
+          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a]"
+          data-active="true"
+        >
+          <p>Italian</p>
+        </div>
+        <div
+          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a]"
+        >
+          <p>Drinks</p>
+        </div>
+      </div>
+      <div
+        class="grid justify-center lg:grid-cols-[400px_400px_400px] grid-cols-1 gap-5 w-full mt-10 px-14 pb-5"
+      >
+        <div class="w-full h-fit bg-white rounded-xl">
+          <img
+            src="assets/img/coffee-1.webp"
+            class="w-full h-60 object-cover object-center rounded-t-xl"
+            alt=""
+          />
+          <div class="p-5">
+            <p
+              class="text-4xl font-bebas-neue text-[#17623b] font-bold text-center"
+            >
+              ESPRESSO SHOT
+            </p>
+            <div class="flex gap-1 justify-center items-center">
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+            </div>
+            <p class="text-center mt-1 text-gray-500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              reprehenderit.
+            </p>
+            <div class="flex mt-5 items-center">
+              <p class="font-bebas-neue text-3xl text-[#17623b] font-bold">
+                $35.00
+              </p>
+              <div class="flex w-full justify-center">
+                <button
+                  class="px-6 py-2 bg-[#f2bf4a] border-2 border-[#28543A] rounded-2xl shadow-[0px_4px_0px_#28543A] font-bold text-white uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
+                >
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-fit bg-white rounded-xl">
+          <img
+            src="assets/img/coffee-1.webp"
+            class="w-full h-60 object-cover object-center rounded-t-xl"
+            alt=""
+          />
+          <div class="p-5">
+            <p
+              class="text-4xl font-bebas-neue text-[#17623b] font-bold text-center"
+            >
+              ESPRESSO SHOT
+            </p>
+            <div class="flex gap-1 justify-center items-center">
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+            </div>
+            <p class="text-center mt-1 text-gray-500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              reprehenderit.
+            </p>
+            <div class="flex mt-5 items-center">
+              <p class="font-bebas-neue text-3xl text-[#17623b] font-bold">
+                $35.00
+              </p>
+              <div class="flex w-full justify-center">
+                <button
+                  class="px-6 py-2 bg-[#f2bf4a] border-2 border-[#28543A] rounded-2xl shadow-[0px_4px_0px_#28543A] font-bold text-white uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
+                >
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-fit bg-white rounded-xl">
+          <img
+            src="assets/img/coffee-1.webp"
+            class="w-full h-60 object-cover object-center rounded-t-xl"
+            alt=""
+          />
+          <div class="p-5">
+            <p
+              class="text-4xl font-bebas-neue text-[#17623b] font-bold text-center"
+            >
+              ESPRESSO SHOT
+            </p>
+            <div class="flex gap-1 justify-center items-center">
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+              <img src="assets/svg/star.svg" class="w-6" alt="" />
+            </div>
+            <p class="text-center mt-1 text-gray-500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              reprehenderit.
+            </p>
+            <div class="flex mt-5 items-center">
+              <p class="font-bebas-neue text-3xl text-[#17623b] font-bold">
+                $35.00
+              </p>
+              <div class="flex w-full justify-center">
+                <button
+                  class="px-6 py-2 bg-[#f2bf4a] border-2 border-[#28543A] rounded-2xl shadow-[0px_4px_0px_#28543A] font-bold text-white uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
+                >
+                  ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 flex gap-3 justify-center items-center pb-20">
+        <div
+          class="p-4 rounded-xl bg-white cursor-pointer hover:-translate-y-1 transition-transform duration-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#17623b"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-chevron-left-icon lucide-chevron-left"
+          >
+            <path d="m15 18-6-6 6-6" />
+          </svg>
+        </div>
+        <div
+          class="p-4 rounded-xl bg-white cursor-pointer hover:-translate-y-1 transition-transform duration-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#17623b"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-chevron-right-icon lucide-chevron-right"
+          >
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 80"
+      preserveAspectRatio="none"
+      class="-mt-1"
+      style="display: block; width: 100%; height: 40px"
+    >
+      <path
+        d="M0,0 H1200 V60 
+           L1180,58 L1145,63 L1110,56 L1080,61 L1030,57 
+           L995,62 L960,59 L915,63 L880,58 L835,62 
+           L800,56 L765,61 L720,58 L685,63 L640,57 
+           L600,62 L565,58 L525,61 L490,56 L445,63 
+           L410,59 L365,62 L320,57 L285,61 L245,56 
+           L210,63 L165,58 L130,62 L90,57 L50,61 
+           L25,58 L0,62 Z"
+        fill="#17623b"
+      />
+    </svg>
+  </section>
+</template>
+<script>
+  export default {};
+</script>
