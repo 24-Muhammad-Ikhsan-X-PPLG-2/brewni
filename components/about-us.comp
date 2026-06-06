@@ -1,5 +1,5 @@
 <template>
-  <section class="">
+  <section class="overflow-hidden">
     <h2
       class="text-center mt-20 text-red-500 lg:text-4xl md:text-3xl text-2xl font-great-vibes"
     >
@@ -10,9 +10,9 @@
     >
       THE HEART BEHIND EVERY BREW EXPERIENCE
     </h1>
-    <div class="flex w-full justify-center items-center pb-10">
+    <div class="flex w-full justify-center items-center pb-10 px-4">
       <div class="mt-5 grid lg:grid-cols-3 grid-cols-1 gap-5">
-        <div class="grid grid-rows-2 w-100 gap-5">
+        <div class="grid grid-rows-2 lg:w-100 w-full gap-5">
           <div
             class="bg-[#f0f0f0] w-full flex justify-between flex-col h-55 p-5 rounded-xl shadow-sm border border-white/30"
           >
@@ -56,10 +56,10 @@
         </div>
         <img
           src="assets/img/coffe-baker.webp"
-          class="object-cover w-100 h-115 rounded-xl shadow-sm"
+          class="object-cover lg:w-100 w-full h-115 rounded-xl shadow-sm"
           alt=""
         />
-        <div class="grid grid-rows-2 w-100 gap-5">
+        <div class="grid grid-rows-2 lg:w-100 w-full gap-5">
           <div
             class="bg-[#f0f0f0] w-full flex justify-between flex-col h-55 p-5 rounded-xl shadow-sm border border-white/30"
           >

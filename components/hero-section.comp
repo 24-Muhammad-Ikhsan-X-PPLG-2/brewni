@@ -1,6 +1,6 @@
 <template>
   <main
-    class="min-h-screen bg-[#17623b] pb-15 pt-32 flex flex-col justify-center items-center"
+    class="min-h-screen overflow-hidden bg-[#17623b] pb-15 pt-32 flex flex-col justify-center items-center"
   >
     <div class="grid lg:grid-cols-2 grid-cols-1 gap-10">
       <div class="w-full md:max-w-lg text-white px-4 lg:order-1 order-2">
@@ -39,22 +39,32 @@
         </button>
         <div class="grid grid-cols-3 mt-10 gap-5 pb-5">
           <div
-            class="w-full flex flex-col justify-center items-center border border-white/30 rounded-xl p-3"
+            class="md:w-full w-fit flex flex-col justify-center items-center border border-white/30 rounded-xl p-3"
           >
-            <img src="assets/svg/coffee.svg" class="w-14" alt="" />
-            <p class="font-bold text-center">QUALITY FIRST</p>
+            <img src="assets/svg/coffee.svg" class="md:w-14 w-12" alt="" />
+            <p class="font-bold text-center md:text-base text-sm max-w-[100px]">
+              QUALITY FIRST
+            </p>
           </div>
           <div
-            class="w-full flex flex-col justify-center items-center border border-white/30 rounded-xl p-3"
+            class="md:w-full w-fit flex flex-col justify-center items-center border border-white/30 rounded-xl p-3"
           >
-            <img src="assets/svg/coffee-beans.svg" class="w-14" alt="" />
-            <p class="font-bold text-center">QUALITY FIRST</p>
+            <img
+              src="assets/svg/coffee-beans.svg"
+              class="md:w-14 w-12"
+              alt=""
+            />
+            <p class="font-bold text-center md:text-base text-sm max-w-[100px]">
+              QUALITY FIRST
+            </p>
           </div>
           <div
-            class="w-full flex flex-col justify-center items-center border border-white/30 rounded-xl p-3"
+            class="md:w-full w-fit flex flex-col justify-center items-center border border-white/30 rounded-xl p-3"
           >
-            <img src="assets/svg/cup-coffee.svg" class="w-14" alt="" />
-            <p class="font-bold text-center">COFFEE COMMUNITY</p>
+            <img src="assets/svg/cup-coffee.svg" class="md:w-14 w-12" alt="" />
+            <p class="font-bold text-center md:text-base text-sm max-w-[100px]">
+              COFFEE COMMUNITY
+            </p>
           </div>
         </div>
       </div>
