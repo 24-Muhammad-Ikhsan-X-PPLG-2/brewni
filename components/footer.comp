@@ -1,0 +1,169 @@
+<template>
+  <footer class="overflow-hidden">
+    <!-- Wave -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 80"
+      preserveAspectRatio="none"
+      class="-mb-1 rotate-180"
+      style="display: block; width: 100%; height: 40px"
+    >
+      <path
+        d="M0,0 H1200 V60 
+       L1180,58 L1145,63 L1110,56 L1080,61 L1030,57 
+       L995,62 L960,59 L915,63 L880,58 L835,62 
+       L800,56 L765,61 L720,58 L685,63 L640,57 
+       L600,62 L565,58 L525,61 L490,56 L445,63 
+       L410,59 L365,62 L320,57 L285,61 L245,56 
+       L210,63 L165,58 L130,62 L90,57 L50,61 
+       L25,58 L0,62 Z"
+        fill="#17623b"
+      />
+    </svg>
+
+    <div class="relative bg-[#17623b] px-4 md:px-10 lg:px-14 pt-20">
+      <div class="flex flex-wrap gap-5 justify-center">
+        <div
+          class="size-70 rounded-xl bg-[url(assets/img/gallery-1.webp)] bg-cover bg-center"
+        ></div>
+
+        <div
+          class="size-70 rounded-xl bg-[#f2bf4a] flex items-center justify-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#17623b"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-instagram-icon lucide-instagram"
+          >
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+          </svg>
+        </div>
+
+        <div
+          class="size-70 rounded-xl bg-[url(assets/img/gallery-4.webp)] bg-cover bg-center"
+        ></div>
+
+        <div
+          class="size-70 rounded-xl bg-[url(assets/img/gallery-3.webp)] bg-cover bg-center"
+        ></div>
+      </div>
+
+      <div class="mt-14 flex flex-col gap-10 lg:flex-row lg:justify-between">
+        <div class="max-w-xs text-white">
+          <h2 class="font-bebas-neue text-3xl">ABOUT US</h2>
+
+          <p class="mt-5 font-light text-white/80">
+            Serving great coffee and good vibes every day. Visit us for your
+            daily dose of warmth and flavor.
+          </p>
+
+          <div class="mt-6 flex gap-2">
+            <div
+              class="size-12 rounded-full bg-white/15 flex items-center justify-center"
+            >
+              <img src="assets/svg/facebook.svg" class="w-6" alt="" />
+            </div>
+
+            <div
+              class="size-12 rounded-full bg-white/15 flex items-center justify-center"
+            >
+              <img src="assets/svg/youtube.svg" class="w-6" alt="" />
+            </div>
+
+            <div
+              class="size-12 rounded-full bg-white/15 flex items-center justify-center"
+            >
+              <img src="assets/svg/tiktok.svg" class="w-6" alt="" />
+            </div>
+
+            <div
+              class="size-12 rounded-full bg-white/15 flex items-center justify-center"
+            >
+              <img src="assets/svg/snapchat.svg" class="w-6" alt="" />
+            </div>
+
+            <div
+              class="size-12 rounded-full bg-white/15 flex items-center justify-center"
+            >
+              <img src="assets/svg/messenger.svg" class="w-6" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-12 lg:gap-20 text-white">
+          <div>
+            <h3 class="font-bold">PAGES</h3>
+
+            <div class="mt-5 flex flex-col gap-2 font-light">
+              <a href="#">About Us</a>
+              <a href="#">Our Menu</a>
+              <a href="#">Features</a>
+              <a href="#">Gallery</a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="font-bold">CONTACT INFORMATION</h3>
+
+            <div class="mt-5 flex flex-col gap-2 font-light">
+              <p>+62 856 1617 593</p>
+              <p>ikhsanm181209@gmail.com</p>
+
+              <p class="max-w-[15rem]">
+                <span class="font-semibold">Address:</span>
+                Jl. Dara 5, Villa Pamulang, Indonesia.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="font-bold">OPENING TIME</h3>
+
+            <div class="mt-5 flex flex-col gap-2 font-light">
+              <p>Monday - Friday : 9.00 am - 22.00 pm</p>
+              <p>Saturday : 10.00 am - 23.00 pm</p>
+              <p>Sunday : 5.00 am - 23.00 pm</p>
+              <p>Holidays : Closed</p>
+              <p>Happy Hours : 18.00 - 20.00 pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="relative mt-20 overflow-hidden">
+        <h1
+          class="pointer-events-none whitespace-nowrap text-center text-[22vw] font-black uppercase leading-none tracking-[-0.06em] text-transparent"
+          style="-webkit-text-stroke: 2.5px rgba(255, 255, 255, 0.6)"
+        >
+          BREWNI
+        </h1>
+
+        <div
+          class="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#17623b]"
+        ></div>
+
+        <div class="relative -mt-[4vw]">
+          <div class="border-t border-white/10"></div>
+
+          <div
+            class="flex flex-col gap-3 py-5 text-sm text-white/70 md:flex-row md:items-center md:justify-between"
+          >
+            <p>© 2026 BeanCraft, Inc. All rights reserved</p>
+
+            <a href="#">Privacy & Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</template>
+<script>
+  export default {};
+</script>

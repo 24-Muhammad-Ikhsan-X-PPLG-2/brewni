@@ -26,6 +26,9 @@
     <section data-component="gallery"></section>
     <section data-component="contact-us"></section>
     <section data-component="blogs"></section>
+    <section data-component="faqs"></section>
+    <section data-component="cta"></section>
+    <footer data-component="footer"></footer>
     <script src="js/script.js"></script>
     <script>
       document.addEventListener("engine:ready", async () => {
@@ -37,6 +40,25 @@
         setTimeout(() => {
           loader.remove();
         }, 600);
+        document.querySelectorAll(".faq-btn").forEach((btn, idx) => {
+          btn.addEventListener("click", () => {
+            const content = btn.nextElementSibling;
+            const icon = btn.querySelector(".faq-icon");
+            const faq = document.querySelectorAll(".faq")[idx];
+
+            if (content.style.maxHeight) {
+              content.style.maxHeight = null;
+              icon.style.transform = "rotate(0deg)";
+              faq.classList.add("bg-[#17623b]");
+              faq.classList.remove("bg-[#dd5e35]");
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+              icon.style.transform = "rotate(45deg)";
+              faq.classList.remove("bg-[#17623b]");
+              faq.classList.add("bg-[#dd5e35]");
+            }
+          });
+        });
       });
     </script>
   </body>

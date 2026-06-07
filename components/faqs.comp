@@ -1,0 +1,212 @@
+<template>
+  <section class="pt-20 lg:px-14 md:px-10 px-4">
+    <p class="text-2xl font-great-vibes text-red-500 text-center">FAQS</p>
+    <h1
+      class="lg:text-6xl md:text-5xl text-4xl font-bold font-bebas-neue text-center mx-auto mt-5 text-[#17623b]"
+    >
+      FREQUENTLY ASKED QUESTIONS
+    </h1>
+    <div class="pt-20 pb-20 flex flex-col items-center gap-5">
+      <div
+        class="faq lg:w-[80%] w-full bg-[#17623b] rounded-xl overflow-hidden transition-colors duration-300"
+      >
+        <button
+          class="faq-btn w-full flex items-center justify-between p-4 cursor-pointer"
+        >
+          <span
+            class="lg:text-2xl md:text-xl text-left text-lg font-bold text-white"
+          >
+            WHAT TYPES OF COFFEE DO YOU SERVE?
+          </span>
+
+          <span
+            class="faq-icon text-4xl text-white transition-transform duration-300"
+          >
+            +
+          </span>
+        </button>
+
+        <div
+          class="faq-content max-h-0 overflow-hidden transition-all duration-500"
+        >
+          <div class="px-4 pb-4">
+            <div class="border-t border-white/30 pt-3"></div>
+
+            <p class="text-white">
+              We offer a variety of coffee drinks, including espresso,
+              americano, cappuccino, latte, mocha, and seasonal specialties, all
+              crafted from carefully selected premium beans.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="faq lg:w-[80%] w-full bg-[#17623b] rounded-xl overflow-hidden transition-colors duration-300"
+      >
+        <button
+          class="faq-btn w-full flex items-center justify-between p-4 cursor-pointer"
+        >
+          <span
+            class="lg:text-2xl md:text-xl text-left text-lg font-bold text-white"
+          >
+            DO YOU HAVE NON-DAIRY MILK OPTIONS?
+          </span>
+
+          <span
+            class="faq-icon text-4xl text-white transition-transform duration-300"
+          >
+            +
+          </span>
+        </button>
+
+        <div
+          class="faq-content max-h-0 overflow-hidden transition-all duration-500"
+        >
+          <div class="px-4 pb-4">
+            <div class="border-t border-white/30 pt-3"></div>
+
+            <p class="text-white">
+              Yes! We provide almond, soy, and oat milk options so you can enjoy
+              your favorite coffee exactly how you like it.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="faq lg:w-[80%] w-full bg-[#17623b] rounded-xl overflow-hidden transition-colors duration-300"
+      >
+        <button
+          class="faq-btn w-full flex items-center justify-between p-4 cursor-pointer"
+        >
+          <span
+            class="lg:text-2xl md:text-xl text-left text-lg font-bold text-white"
+          >
+            CAN I ORDER ONLINE OR FOR TAKEAWAY?
+          </span>
+
+          <span
+            class="faq-icon text-4xl text-white transition-transform duration-300"
+          >
+            +
+          </span>
+        </button>
+
+        <div
+          class="faq-content max-h-0 overflow-hidden transition-all duration-500"
+        >
+          <div class="px-4 pb-4">
+            <div class="border-t border-white/30 pt-3"></div>
+
+            <p class="text-white">
+              Absolutely. You can place your order online or request takeaway
+              service for a quick and convenient coffee experience wherever you
+              are.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="faq lg:w-[80%] w-full bg-[#17623b] rounded-xl overflow-hidden transition-colors duration-300"
+      >
+        <button
+          class="faq-btn w-full flex items-center justify-between p-4 cursor-pointer"
+        >
+          <span
+            class="lg:text-2xl md:text-xl text-left text-lg font-bold text-white"
+          >
+            DO YOU OFFER LOYALTY OR MEMBERSHIP PROGRAMS?
+          </span>
+
+          <span
+            class="faq-icon text-4xl text-white transition-transform duration-300"
+          >
+            +
+          </span>
+        </button>
+
+        <div
+          class="faq-content max-h-0 overflow-hidden transition-all duration-500"
+        >
+          <div class="px-4 pb-4">
+            <div class="border-t border-white/30 pt-3"></div>
+
+            <p class="text-white">
+              Yes, we reward our regular customers with exclusive discounts,
+              special offers, and points that can be redeemed for free drinks
+              and treats.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="faq lg:w-[80%] w-full bg-[#17623b] rounded-xl overflow-hidden transition-colors duration-300"
+      >
+        <button
+          class="faq-btn w-full flex items-center justify-between p-4 cursor-pointer"
+        >
+          <span
+            class="lg:text-2xl md:text-xl text-left text-lg font-bold text-white"
+          >
+            ARE YOUR BEANS ETHICALLY SOURCED?
+          </span>
+
+          <span
+            class="faq-icon text-4xl text-white transition-transform duration-300"
+          >
+            +
+          </span>
+        </button>
+
+        <div
+          class="faq-content max-h-0 overflow-hidden transition-all duration-500"
+        >
+          <div class="px-4 pb-4">
+            <div class="border-t border-white/30 pt-3"></div>
+
+            <p class="text-white">
+              Yes. We work closely with trusted farmers and suppliers who follow
+              ethical and sustainable farming practices, ensuring quality coffee
+              and fair support for local communities.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="faq lg:w-[80%] w-full bg-[#17623b] rounded-xl overflow-hidden transition-colors duration-300"
+      >
+        <button
+          class="faq-btn w-full flex items-center justify-between p-4 cursor-pointer"
+        >
+          <span
+            class="lg:text-2xl md:text-xl text-left text-lg font-bold text-white"
+          >
+            IS YOUR CAFÉ KID AND FAMILY-FRIENDLY?
+          </span>
+
+          <span
+            class="faq-icon text-4xl text-white transition-transform duration-300"
+          >
+            +
+          </span>
+        </button>
+
+        <div
+          class="faq-content max-h-0 overflow-hidden transition-all duration-500"
+        >
+          <div class="px-4 pb-4">
+            <div class="border-t border-white/30 pt-3"></div>
+
+            <p class="text-white">
+              Of course! Our café provides a welcoming atmosphere for guests of
+              all ages, making it a comfortable place for families, friends, and
+              coffee lovers to gather.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+<script>
+  export default {};
+</script>

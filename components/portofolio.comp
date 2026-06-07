@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen lg:px-14 md:px-10 px-4">
+  <section class="lg:px-14 md:px-10 px-4 overflow-hidden">
     <div class="border border-gray-300 w-full"></div>
     <p class="text-2xl text-red-500 text-center font-great-vibes mt-20">
       Portofolio
