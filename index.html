@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/engine.js"></script>
   </head>
-  <body class="overflow-y-hidden">
+  <body class="">
     <div
       id="loader"
       class="fixed w-full h-full z-9999 bg-white flex justify-center items-center transition duration-300"
@@ -21,11 +21,19 @@
     <section data-component="slogan"></section>
     <section data-component="products"></section>
     <section data-component="menu"></section>
+    <section data-component="why-choose-us"></section>
+    <section data-component="portofolio"></section>
+    <section data-component="gallery"></section>
+    <section data-component="contact-us"></section>
+    <section data-component="blogs"></section>
+    <script src="js/script.js"></script>
     <script>
-      document.addEventListener("engine:ready", () => {
+      document.addEventListener("engine:ready", async () => {
         const loader = document.getElementById("loader");
         loader.classList.add("opacity-0", "pointer-events-none");
-        document.body.classList.remove("overflow-y-hidden");
+        const el = await callTemplate("card-why-choose-us");
+        const cardsContainer = document.getElementById("cards-why-choose-us");
+        await buildCardsWhyChooseUs(cardsContainer, el);
         setTimeout(() => {
           loader.remove();
         }, 600);

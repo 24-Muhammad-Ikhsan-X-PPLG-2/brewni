@@ -1,0 +1,156 @@
+<template>
+  <section
+    class="min-h-screen flex items-center lg:px-14 md:px-5 px-4 pt-20 pb-20"
+  >
+    <div class="grid md:grid-cols-2 grid-cols-1 gap-5 items-center">
+      <div class="w-full">
+        <p class="text-2xl font-great-vibes text-red-500">Contact Us</p>
+        <h1
+          class="lg:text-6xl md:text-5xl text-4xl font-bebas-neue font-bold mt-5 max-w-xs text-[#17623b]"
+        >
+          HAVE A QUESTIONS? CONTACT US NOW
+        </h1>
+        <p class="mt-5 max-w-md text-sm text-gray-600">
+          Have question about your pet's or our service? Our friendly team is
+          ready to assist you. Contact us today for expect guidance and support.
+        </p>
+        <div class="mt-10 flex flex-col gap-2">
+          <div class="flex items-center gap-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="#17623b"
+              stroke="#17623b"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-phone-call-icon lucide-phone-call"
+            >
+              <path d="M13 2a9 9 0 0 1 9 9" />
+              <path d="M13 6a5 5 0 0 1 5 5" />
+              <path
+                d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"
+              />
+            </svg>
+            <p class="text-[#17623b] font-semibold">+62 856 1617 593</p>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#17623b"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-map-pin-icon lucide-map-pin"
+            >
+              <path
+                d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+              />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <p class="text-[#17623b] font-semibold">
+              Jl. Dara 5, Villa Pamulang
+            </p>
+          </div>
+          <div class="flex items-center gap-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="#17623b"
+              stroke="#17623b"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-send-icon lucide-send"
+            >
+              <path
+                d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"
+              />
+              <path d="m21.854 2.147-10.94 10.939" />
+            </svg>
+            <p class="text-[#17623b] font-semibold">ikhsanm181209@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full h-fit bg-[#17623b] rounded-xl p-6">
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-5">
+          <div class="flex flex-col gap-1">
+            <label for="firstName" class="text-white font-semibold"
+              >FIRST NAME</label
+            >
+            <input
+              type="text"
+              id="firstName"
+              class="px-5 outline-none py-3.5 bg-white rounded-xl"
+              placeholder="Enter here"
+            />
+          </div>
+          <div class="flex flex-col gap-1">
+            <label for="lastName" class="text-white font-semibold"
+              >LAST NAME</label
+            >
+            <input
+              type="text"
+              id="lastName"
+              class="px-5 outline-none py-3.5 bg-white rounded-xl"
+              placeholder="Enter here"
+            />
+          </div>
+        </div>
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 mt-5">
+          <div class="flex flex-col gap-1">
+            <label for="email" class="text-white font-semibold"
+              >EMAIL ADDRESS</label
+            >
+            <input
+              type="email"
+              id="email"
+              class="px-5 outline-none py-3.5 bg-white rounded-xl"
+              placeholder="Enter here"
+            />
+          </div>
+          <div class="flex flex-col gap-1">
+            <label for="phoneNumber" class="text-white font-semibold"
+              >PHONE NUMBER</label
+            >
+            <input
+              type="number"
+              id="phoneNumber"
+              class="px-5 outline-none py-3.5 bg-white rounded-xl"
+              placeholder="Enter here"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col gap-1 mt-5">
+          <label for="message" class="text-white font-semibold"
+            >YOUR MESSAGE</label
+          >
+          <textarea
+            type="number"
+            id="phoneNumber"
+            class="px-5 outline-none py-3.5 bg-white rounded-xl"
+            placeholder="Enter here"
+            rows="4"
+          ></textarea>
+        </div>
+        <button
+          class="w-full py-3.5 bg-[#f2bf4a] text-[#17623b] mt-5 rounded-xl font-semibold cursor-pointer hover:-translate-y-1 active:scale-95 transition-transform"
+        >
+          SEND MESSAGE
+        </button>
+      </div>
+    </div>
+  </section>
+</template>
+<script>
+  export default {};
+</script>

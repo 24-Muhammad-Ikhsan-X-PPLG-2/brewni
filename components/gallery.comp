@@ -1,0 +1,93 @@
+<template>
+  <section class="mt-10 overflow-hidden">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 120"
+      preserveAspectRatio="none"
+      class="-mb-2"
+    >
+      <path
+        d="M0,120 L0,50 
+               L20,52 L40,48 L60,54 L80,49 L100,55 L120,51 
+               L140,58 L160,53 L180,60 L200,56 L220,62 L240,58 
+               L260,65 L280,59 L300,61 L320,57 L340,63 L360,58 
+               L380,54 L400,50 L420,53 L440,48 L460,55 L480,50 
+               L500,52 L520,49 L540,54 L560,51 L580,48 L600,53 
+               L620,49 L640,52 L660,47 L680,50 L700,46 L720,51 
+               L740,48 L760,52 L780,49 L800,54 L820,50 L840,55 
+               L860,52 L880,57 L900,53 L920,58 L940,55 L960,61 
+               L980,56 L1000,62 L1020,57 L1040,60 L1060,55 L1080,59 
+               L1100,54 L1120,51 L1140,48 L1160,52 L1180,49 L1200,53 
+               L1200,120 Z"
+        fill="#f2bf4a"
+      />
+    </svg>
+    <div class="bg-[#f2bf4a] relative z-2 lg:px-14 md:px-10 px-4 pb-20 pt-20">
+      <p class="font-great-vibes text-2xl text-center text-[#17623b]">
+        Gallery
+      </p>
+      <h1
+        class="lg:text-6xl md:text-5xl text-4xl font-bebas-neue mt-3 text-center mx-auto max-w-md text-[#17623b]"
+      >
+        A VISUAL JOURNEY THROUGH OUR COFFEE AND COZY
+      </h1>
+      <div class="flex gap-10 mt-10 overflow-x-scroll pb-2">
+        <img
+          src="assets/img/gallery-1.webp"
+          class="w-120 h-100 rounded-xl object-cover object-center"
+          alt=""
+        />
+        <img
+          src="assets/img/gallery-2.webp"
+          class="w-120 h-100 rounded-xl object-cover object-center"
+          alt=""
+        />
+        <img
+          src="assets/img/gallery-3.webp"
+          class="w-120 h-100 rounded-xl object-cover object-center"
+          alt=""
+        />
+        <img
+          src="assets/img/gallery-4.webp"
+          class="w-120 h-100 rounded-xl object-cover object-center"
+          alt=""
+        />
+        <img
+          src="assets/img/gallery-5.webp"
+          class="w-120 h-100 rounded-xl object-cover object-center"
+          alt=""
+        />
+        <img
+          src="assets/img/gallery-6.webp"
+          class="w-120 h-100 rounded-xl object-cover object-center"
+          alt=""
+        />
+      </div>
+    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 120"
+      preserveAspectRatio="none"
+      class="-mt-2 rotate-180"
+    >
+      <path
+        d="M0,120 L0,50 
+               L20,52 L40,48 L60,54 L80,49 L100,55 L120,51 
+               L140,58 L160,53 L180,60 L200,56 L220,62 L240,58 
+               L260,65 L280,59 L300,61 L320,57 L340,63 L360,58 
+               L380,54 L400,50 L420,53 L440,48 L460,55 L480,50 
+               L500,52 L520,49 L540,54 L560,51 L580,48 L600,53 
+               L620,49 L640,52 L660,47 L680,50 L700,46 L720,51 
+               L740,48 L760,52 L780,49 L800,54 L820,50 L840,55 
+               L860,52 L880,57 L900,53 L920,58 L940,55 L960,61 
+               L980,56 L1000,62 L1020,57 L1040,60 L1060,55 L1080,59 
+               L1100,54 L1120,51 L1140,48 L1160,52 L1180,49 L1200,53 
+               L1200,120 Z"
+        fill="#f2bf4a"
+      />
+    </svg>
+  </section>
+</template>
+<script>
+  export default {};
+</script>

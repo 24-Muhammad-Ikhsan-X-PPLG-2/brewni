@@ -1,0 +1,20 @@
+<template>
+  <div
+    class="w-full rounded-xl h-[300px] p-4 bg-gray-200 flex flex-col justify-center items-center"
+  >
+    <div class="relative w-fit h-fit">
+      <img src="assets/svg/starburst-putih.svg" class="w-42" alt="" />
+      <img
+        src="assets/svg/coffe-cup-warna.svg"
+        class="w-14 absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2"
+        alt=""
+      />
+    </div>
+    <h2 class="text-[#17623b] font-bebas-neue text-3xl font-semibold">
+      SUSTAINABLE CUPS
+    </h2>
+    <p class="text-gray-500 text-center text-sm mt-1">
+      Eco-friendly cups for a better planet. Sip coffee, save nature.
+    </p>
+  </div>
+</template>

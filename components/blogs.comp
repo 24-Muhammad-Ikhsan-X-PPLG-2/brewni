@@ -1,0 +1,233 @@
+<template>
+  <section class="overflow-hidden">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 80"
+      preserveAspectRatio="none"
+      class="-mb-1 rotate-180"
+      style="display: block; width: 100%; height: 40px"
+    >
+      <path
+        d="M0,0 H1200 V60 
+           L1180,58 L1145,63 L1110,56 L1080,61 L1030,57 
+           L995,62 L960,59 L915,63 L880,58 L835,62 
+           L800,56 L765,61 L720,58 L685,63 L640,57 
+           L600,62 L565,58 L525,61 L490,56 L445,63 
+           L410,59 L365,62 L320,57 L285,61 L245,56 
+           L210,63 L165,58 L130,62 L90,57 L50,61 
+           L25,58 L0,62 Z"
+        fill="#17623b"
+      />
+    </svg>
+    <div class="relative z-2 bg-[#17623b]">
+      <p
+        class="md:text-3xl text-2xl font-great-vibes pt-20 text-center text-[#f2bf4a]"
+      >
+        Blogs
+      </p>
+
+      <h1
+        class="text-center font-bebas-neue lg:text-6xl md:text-5xl text-4xl mt-3 text-white font-bold max-w-lg mx-auto"
+      >
+        FRESH READS FOR COFFEE LOVERS
+      </h1>
+
+      <div
+        class="grid justify-center lg:grid-cols-[300px_300px_300px_300px] grid-cols-1 gap-5 w-full mt-10 px-14 pb-5"
+      >
+        <div class="w-full h-100 rounded-xl bg-white">
+          <div class="w-full h-50 relative">
+            <img
+              src="assets/img/gallery-1.webp"
+              class="object-cover rounded-t-xl object-center w-full h-full"
+              alt=""
+            />
+            <div
+              class="bg-[#f2bf4a] px-2 py-1 absolute top-0 right-0 rounded-tr-xl rounded-bl-xl"
+            >
+              <p class="font-semibold text-[#17623b] text-sm">JUN 21, 2026</p>
+            </div>
+          </div>
+          <div class="p-4 flex flex-col justify-between h-50">
+            <div>
+              <h2
+                class="text-[1.7rem] leading-7 max-w-[15rem] font-bold text-[#17623b] font-bebas-neue"
+              >
+                THE HEART OF OUR COZY SPACE
+              </h2>
+              <p class="mt-3 text-gray-500 text-sm">
+                Learn simple tips to make every cup taste like a cafe classic,
+                right at home.
+              </p>
+            </div>
+            <div class="flex w-fit flex-col">
+              <a href="" class="text-[#17623b] font-semibold peer">READ BLOG</a>
+              <div
+                class="w-full h-[2px] -translate-x-full opacity-0 peer-hover:translate-x-0 peer-hover:opacity-100 bg-[#17623b] transition-all duration-300"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-100 rounded-xl bg-white">
+          <div class="w-full h-50 relative">
+            <img
+              src="assets/img/gallery-1.webp"
+              class="object-cover rounded-t-xl object-center w-full h-full"
+              alt=""
+            />
+            <div
+              class="bg-[#f2bf4a] px-2 py-1 absolute top-0 right-0 rounded-tr-xl rounded-bl-xl"
+            >
+              <p class="font-semibold text-[#17623b] text-sm">JUN 21, 2026</p>
+            </div>
+          </div>
+          <div class="p-4 flex flex-col justify-between h-50">
+            <div>
+              <h2
+                class="text-[1.7rem] leading-7 max-w-[15rem] font-bold text-[#17623b] font-bebas-neue"
+              >
+                THE HEART OF OUR COZY SPACE
+              </h2>
+              <p class="mt-3 text-gray-500 text-sm">
+                Learn simple tips to make every cup taste like a cafe classic,
+                right at home.
+              </p>
+            </div>
+            <div class="flex w-fit flex-col">
+              <a href="" class="text-[#17623b] font-semibold peer">READ BLOG</a>
+              <div
+                class="w-full h-[2px] -translate-x-full opacity-0 peer-hover:translate-x-0 peer-hover:opacity-100 bg-[#17623b] transition-all duration-300"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-100 rounded-xl bg-white">
+          <div class="w-full h-50 relative">
+            <img
+              src="assets/img/gallery-1.webp"
+              class="object-cover rounded-t-xl object-center w-full h-full"
+              alt=""
+            />
+            <div
+              class="bg-[#f2bf4a] px-2 py-1 absolute top-0 right-0 rounded-tr-xl rounded-bl-xl"
+            >
+              <p class="font-semibold text-[#17623b] text-sm">JUN 21, 2026</p>
+            </div>
+          </div>
+          <div class="p-4 flex flex-col justify-between h-50">
+            <div>
+              <h2
+                class="text-[1.7rem] leading-7 max-w-[15rem] font-bold text-[#17623b] font-bebas-neue"
+              >
+                THE HEART OF OUR COZY SPACE
+              </h2>
+              <p class="mt-3 text-gray-500 text-sm">
+                Learn simple tips to make every cup taste like a cafe classic,
+                right at home.
+              </p>
+            </div>
+            <div class="flex w-fit flex-col">
+              <a href="" class="text-[#17623b] font-semibold peer">READ BLOG</a>
+              <div
+                class="w-full h-[2px] -translate-x-full opacity-0 peer-hover:translate-x-0 peer-hover:opacity-100 bg-[#17623b] transition-all duration-300"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-100 rounded-xl bg-white">
+          <div class="w-full h-50 relative">
+            <img
+              src="assets/img/gallery-1.webp"
+              class="object-cover rounded-t-xl object-center w-full h-full"
+              alt=""
+            />
+            <div
+              class="bg-[#f2bf4a] px-2 py-1 absolute top-0 right-0 rounded-tr-xl rounded-bl-xl"
+            >
+              <p class="font-semibold text-[#17623b] text-sm">JUN 21, 2026</p>
+            </div>
+          </div>
+          <div class="p-4 flex flex-col justify-between h-50">
+            <div>
+              <h2
+                class="text-[1.7rem] leading-7 max-w-[15rem] font-bold text-[#17623b] font-bebas-neue"
+              >
+                THE HEART OF OUR COZY SPACE
+              </h2>
+              <p class="mt-3 text-gray-500 text-sm">
+                Learn simple tips to make every cup taste like a cafe classic,
+                right at home.
+              </p>
+            </div>
+            <div class="flex w-fit flex-col">
+              <a href="" class="text-[#17623b] font-semibold peer">READ BLOG</a>
+              <div
+                class="w-full h-[2px] -translate-x-full opacity-0 peer-hover:translate-x-0 peer-hover:opacity-100 bg-[#17623b] transition-all duration-300"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10 flex gap-3 justify-center items-center pb-20">
+        <div
+          class="p-4 rounded-xl bg-white cursor-pointer hover:-translate-y-1 transition-transform duration-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#17623b"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-chevron-left-icon lucide-chevron-left"
+          >
+            <path d="m15 18-6-6 6-6" />
+          </svg>
+        </div>
+        <div
+          class="p-4 rounded-xl bg-white cursor-pointer hover:-translate-y-1 transition-transform duration-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#17623b"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-chevron-right-icon lucide-chevron-right"
+          >
+            <path d="m9 18 6-6-6-6" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1200 80"
+      preserveAspectRatio="none"
+      class="-mt-1"
+      style="display: block; width: 100%; height: 40px"
+    >
+      <path
+        d="M0,0 H1200 V60 
+           L1180,58 L1145,63 L1110,56 L1080,61 L1030,57 
+           L995,62 L960,59 L915,63 L880,58 L835,62 
+           L800,56 L765,61 L720,58 L685,63 L640,57 
+           L600,62 L565,58 L525,61 L490,56 L445,63 
+           L410,59 L365,62 L320,57 L285,61 L245,56 
+           L210,63 L165,58 L130,62 L90,57 L50,61 
+           L25,58 L0,62 Z"
+        fill="#17623b"
+      />
+    </svg>
+  </section>
+</template>
+<script>
+  export default {};
+</script>

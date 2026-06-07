@@ -93,6 +93,16 @@ async function mount(el, name) {
   });
 }
 
+async function callTemplate(name) {
+  const file = await fetch(`./components/template/${name}.comp`).then((r) =>
+    r.text(),
+  );
+  const templateEl = file.match(/<template>([\s\S]*?)<\/template>/)?.[1];
+  let el = document.createElement("template");
+  el.innerHTML = templateEl;
+  return el;
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
   const components = document.querySelectorAll("[data-component]");
   for (const el of components) {

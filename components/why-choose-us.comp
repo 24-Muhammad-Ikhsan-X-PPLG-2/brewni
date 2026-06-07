@@ -1,0 +1,21 @@
+<template>
+  <section class="overflow-hidden lg:px-14 md:px-10 px-4">
+    <p
+      class="font-great-vibes mt-20 md:text-2xl text-xl text-center text-red-500"
+    >
+      Why Choose Us
+    </p>
+    <h1
+      class="font-bebas-neue lg:text-6xl md:text-5xl text-4xl font-bold text-center max-w-md mx-auto mt-5 text-[#17623b]"
+    >
+      YOUR FAVORITE BREWS AND BITES, ALL IN ONE MENU
+    </h1>
+    <div
+      class="grid pb-20 gap-5 grid-cols-1 lg:grid-cols-[300px_300px_300px_300px] mt-10 justify-center items-center"
+      id="cards-why-choose-us"
+    ></div>
+  </section>
+</template>
+<script>
+  export default {};
+</script>

@@ -1,0 +1,156 @@
+<template>
+  <section class="min-h-screen lg:px-14 md:px-10 px-4">
+    <div class="border border-gray-300 w-full"></div>
+    <p class="text-2xl text-red-500 text-center font-great-vibes mt-20">
+      Portofolio
+    </p>
+    <h1
+      class="text-center mt-3 font-bebas-neue lg:text-6xl md:text-5xl text-4xl max-w-2xl font-bold text-[#17623b] mx-auto"
+    >
+      HEAR FROM OUR HAPPY CUSTOMERS, SHARING MOMENTS
+    </h1>
+    <div
+      class="grid lg:grid-cols-[250px_250px_250px_250px] grid-cols-1 justify-center items-center mt-10 pb-20 gap-5"
+    >
+      <div
+        class="w-full flex flex-col justify-between text-white p-5 h-80 rounded-xl bg-[#17623b]"
+      >
+        <div class="flex justify-center items-center">
+          <div class="flex items-start gap-3 justify-center">
+            <p class="whitespace-nowrap">
+              <span class="text-5xl font-bold font-bebas-neue">4.9</span>
+              <span class="text-sm">/5</span>
+            </p>
+            <p
+              class="font-bebas-neue text-2xl text-[#f2bf4a] max-w-sm leading-6"
+            >
+              BREWING SMILES, ONE PERFECT CUP AT A TIME, EVERY SINGLE DAY
+            </p>
+          </div>
+        </div>
+        <div>
+          <p
+            class="text-3xl tracking-widest font-bebas-neue [text-shadow:3px_3px_0px_rgba(0,0,0,1)] font-black"
+          >
+            BREWNI
+          </p>
+          <div class="flex items-center gap-2 mt-2">
+            <div class="flex items-center">
+              <div class="size-10 bg-blue-500 rounded-full"></div>
+              <div class="size-10 bg-violet-500 -ml-1 rounded-full"></div>
+              <div
+                class="size-10 bg-[#f2bf4a] -ml-1 rounded-full flex justify-center items-center"
+              >
+                <p class="text-xs text-[#17623b] font-semibold">35+</p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-1">
+              <div class="flex">
+                <img src="assets/svg/star.svg" class="w-4" alt="" />
+                <img src="assets/svg/star.svg" class="w-4" alt="" />
+                <img src="assets/svg/star.svg" class="w-4" alt="" />
+                <img src="assets/svg/star.svg" class="w-4" alt="" />
+                <img src="assets/svg/star.svg" class="w-4" alt="" />
+              </div>
+              <p class="text-nowrap text-xs font-medium">Trusted By Client</p>
+            </div>
+          </div>
+          <button
+            class="w-full py-3 bg-[#f2bf4a] mt-5 text-sm font-semibold cursor-pointer hover:scale-105 transition-transform active:scale-95 text-[#17623b] rounded-xl"
+          >
+            MORE REVIEW
+          </button>
+        </div>
+      </div>
+      <div class="w-full h-80 flex flex-col gap-5">
+        <div
+          class="h-15 p-3 gap-2 w-full flex items-center rounded-xl bg-gray-200"
+        >
+          <div class="size-11 bg-green-500 rounded-xl"></div>
+          <div class="flex flex-col">
+            <p class="text-base font-bold text-[#17623b]">MUHAMMAD IKHSAN</p>
+            <p class="text-sm text-gray-600">CEO Beon Craft</p>
+          </div>
+        </div>
+        <div
+          class="w-full h-65 rounded-xl p-4 bg-gray-200 flex flex-col justify-between"
+        >
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-1">
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+            </div>
+            <img src="assets/svg/coffe-beans.svg" class="w-12" alt="" />
+          </div>
+          <p class="font-bold text-[#17623b]">
+            "FROM THE FIRST SIP TO THE LAST, EVERY COFFEE IS CRAFTED WITH
+            PASSION."
+          </p>
+        </div>
+      </div>
+      <div class="w-full h-80 flex flex-col gap-5">
+        <div
+          class="w-full h-65 rounded-xl p-4 bg-gray-200 flex flex-col justify-between"
+        >
+          <p class="font-bold text-[#17623b]">
+            "THE COFFE HERE AMAZING! ATMOSPHERE MAKES EVERY VISIT SPECIAL."
+          </p>
+          <div class="flex items-end justify-between">
+            <div class="flex items-center gap-1">
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+            </div>
+            <img src="assets/svg/coffe-beans.svg" class="w-12" alt="" />
+          </div>
+        </div>
+        <div
+          class="h-15 p-3 gap-2 w-full flex items-center rounded-xl bg-[#f2bf4a]"
+        >
+          <div class="size-11 bg-green-500 rounded-xl"></div>
+          <div class="flex flex-col">
+            <p class="text-base font-bold text-[#17623b]">MUHAMMAD IKHSAN</p>
+            <p class="text-sm text-gray-600">CEO Beon Craft</p>
+          </div>
+        </div>
+      </div>
+      <div class="w-full h-80 flex flex-col gap-5">
+        <div
+          class="h-15 p-3 gap-2 w-full flex items-center rounded-xl bg-[#dd5d36]"
+        >
+          <div class="size-11 bg-green-500 rounded-xl"></div>
+          <div class="flex flex-col">
+            <p class="text-base font-bold text-white">MUHAMMAD IKHSAN</p>
+            <p class="text-sm text-white">CEO Beon Craft</p>
+          </div>
+        </div>
+        <div
+          class="w-full h-65 rounded-xl p-4 bg-gray-200 flex flex-col justify-between"
+        >
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-1">
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+              <img src="assets/svg/star-ijo.svg" class="w-4" alt="" />
+            </div>
+            <img src="assets/svg/coffe-beans.svg" class="w-12" alt="" />
+          </div>
+          <p class="font-bold text-[#17623b]">
+            "I LOVE THE VARIETY OF BLENDS; THE AROMA FILLS THE CAFE WITH
+            WARMTH."
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+<script>
+  export default {};
+</script>
