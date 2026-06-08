@@ -1,5 +1,8 @@
 <template>
-  <section class="lg:px-14 px-4 flex justify-center overflow-hidden">
+  <section
+    class="lg:px-14 px-4 flex justify-center overflow-hidden"
+    id="products"
+  >
     <div class="flex lg:w-fit w-full justify-center items-center flex-col mt-4">
       <div
         class="w-full flex lg:flex-row flex-col gap-5 lg:items-end justify-between"

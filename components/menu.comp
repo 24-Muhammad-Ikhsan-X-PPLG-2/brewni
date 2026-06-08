@@ -1,5 +1,5 @@
 <template>
-  <section class="overflow-hidden">
+  <section class="overflow-hidden" id="menu">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1200 80"
@@ -33,145 +33,34 @@
       </div>
       <div class="flex flex-wrap gap-3 mt-10 w-full justify-center">
         <div
-          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a]"
+          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a] menuBtn"
         >
           <p>Mexican</p>
         </div>
         <div
-          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a]"
+          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a] menuBtn"
         >
           <p>Japanese</p>
         </div>
         <div
-          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a]"
-          data-active="true"
+          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a] menuBtn"
         >
           <p>Italian</p>
         </div>
         <div
-          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a]"
+          class="px-12 cursor-pointer hover:border-[#f2bf4a] hover:text-[#17623b] hover:bg-[#f2bf4a] transition-all duration-300 text-white font-medium py-2.5 border border-white/20 rounded-full data-[active=true]:border-[#f2bf4a] data-[active=true]:text-[#17623b] data-[active=true]:bg-[#f2bf4a] menuBtn"
         >
           <p>Drinks</p>
         </div>
       </div>
       <div
         class="grid justify-center lg:grid-cols-[400px_400px_400px] grid-cols-1 gap-5 w-full mt-10 px-14 pb-5"
-      >
-        <div class="w-full h-fit bg-white rounded-xl">
-          <img
-            src="assets/img/coffee-1.webp"
-            class="w-full h-60 object-cover object-center rounded-t-xl"
-            alt=""
-          />
-          <div class="p-5">
-            <p
-              class="text-4xl font-bebas-neue text-[#17623b] font-bold text-center"
-            >
-              ESPRESSO SHOT
-            </p>
-            <div class="flex gap-1 justify-center items-center">
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-            </div>
-            <p class="text-center mt-1 text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-              reprehenderit.
-            </p>
-            <div class="flex mt-5 items-center">
-              <p class="font-bebas-neue text-3xl text-[#17623b] font-bold">
-                $35.00
-              </p>
-              <div class="flex w-full justify-center">
-                <button
-                  class="px-6 py-2 bg-[#f2bf4a] border-2 border-[#28543A] rounded-2xl shadow-[0px_4px_0px_#28543A] font-bold text-white uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
-                >
-                  ADD TO CART
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-full h-fit bg-white rounded-xl">
-          <img
-            src="assets/img/coffee-1.webp"
-            class="w-full h-60 object-cover object-center rounded-t-xl"
-            alt=""
-          />
-          <div class="p-5">
-            <p
-              class="text-4xl font-bebas-neue text-[#17623b] font-bold text-center"
-            >
-              ESPRESSO SHOT
-            </p>
-            <div class="flex gap-1 justify-center items-center">
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-            </div>
-            <p class="text-center mt-1 text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-              reprehenderit.
-            </p>
-            <div class="flex mt-5 items-center">
-              <p class="font-bebas-neue text-3xl text-[#17623b] font-bold">
-                $35.00
-              </p>
-              <div class="flex w-full justify-center">
-                <button
-                  class="px-6 py-2 bg-[#f2bf4a] border-2 border-[#28543A] rounded-2xl shadow-[0px_4px_0px_#28543A] font-bold text-white uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
-                >
-                  ADD TO CART
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="w-full h-fit bg-white rounded-xl">
-          <img
-            src="assets/img/coffee-1.webp"
-            class="w-full h-60 object-cover object-center rounded-t-xl"
-            alt=""
-          />
-          <div class="p-5">
-            <p
-              class="text-4xl font-bebas-neue text-[#17623b] font-bold text-center"
-            >
-              ESPRESSO SHOT
-            </p>
-            <div class="flex gap-1 justify-center items-center">
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-              <img src="assets/svg/star.svg" class="w-6" alt="" />
-            </div>
-            <p class="text-center mt-1 text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-              reprehenderit.
-            </p>
-            <div class="flex mt-5 items-center">
-              <p class="font-bebas-neue text-3xl text-[#17623b] font-bold">
-                $35.00
-              </p>
-              <div class="flex w-full justify-center">
-                <button
-                  class="px-6 py-2 bg-[#f2bf4a] border-2 border-[#28543A] rounded-2xl shadow-[0px_4px_0px_#28543A] font-bold text-white uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
-                >
-                  ADD TO CART
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        id="menu-wrapper"
+      ></div>
       <div class="mt-10 flex gap-3 justify-center items-center pb-20">
         <div
           class="p-4 rounded-xl bg-white cursor-pointer hover:-translate-y-1 transition-transform duration-300"
+          id="prevMenuBtn"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -190,6 +79,7 @@
         </div>
         <div
           class="p-4 rounded-xl bg-white cursor-pointer hover:-translate-y-1 transition-transform duration-300"
+          id="nextMenuBtn"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

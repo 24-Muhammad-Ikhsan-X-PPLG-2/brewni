@@ -1,7 +1,7 @@
 <template>
-  <section class="overflow-hidden">
+  <section class="overflow-hidden pt-20" id="about-us">
     <h2
-      class="text-center mt-20 text-red-500 lg:text-4xl md:text-3xl text-2xl font-great-vibes"
+      class="text-center text-red-500 lg:text-4xl md:text-3xl text-2xl font-great-vibes"
     >
       About Us
     </h2>

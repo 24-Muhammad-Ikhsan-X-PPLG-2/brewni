@@ -1,0 +1,35 @@
+<template>
+  <div class="w-full h-fit bg-white rounded-xl card-menu">
+    <img
+      src="assets/img/coffee-1.webp"
+      class="w-full h-60 object-cover object-center rounded-t-xl"
+      alt=""
+    />
+    <div class="p-5">
+      <p class="text-4xl font-bebas-neue text-[#17623b] font-bold text-center">
+        ESPRESSO SHOT
+      </p>
+      <div class="flex gap-1 justify-center items-center">
+        <img src="assets/svg/star.svg" class="w-6" alt="" />
+        <img src="assets/svg/star.svg" class="w-6" alt="" />
+        <img src="assets/svg/star.svg" class="w-6" alt="" />
+        <img src="assets/svg/star.svg" class="w-6" alt="" />
+        <img src="assets/svg/star.svg" class="w-6" alt="" />
+      </div>
+      <p class="text-center mt-1 text-gray-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+        reprehenderit.
+      </p>
+      <div class="flex mt-5 items-center">
+        <p class="font-bebas-neue text-3xl text-[#17623b] font-bold">$35.00</p>
+        <div class="flex w-full justify-center">
+          <button
+            class="px-6 py-2 bg-[#f2bf4a] border-2 border-[#28543A] rounded-2xl shadow-[0px_4px_0px_#28543A] font-bold text-white uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
+          >
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

@@ -1,5 +1,5 @@
 <template>
-  <section class="overflow-hidden lg:px-14 md:px-10 px-4">
+  <section class="overflow-hidden lg:px-14 md:px-10 px-4" id="why-choose-us">
     <p
       class="font-great-vibes mt-20 md:text-2xl text-xl text-center text-red-500"
     >

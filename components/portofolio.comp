@@ -1,5 +1,5 @@
 <template>
-  <section class="lg:px-14 md:px-10 px-4 overflow-hidden">
+  <section class="lg:px-14 md:px-10 px-4 overflow-hidden" id="portofolio">
     <div class="border border-gray-300 w-full"></div>
     <p class="text-2xl text-red-500 text-center font-great-vibes mt-20">
       Portofolio
@@ -36,8 +36,12 @@
           </p>
           <div class="flex items-center gap-2 mt-2">
             <div class="flex items-center">
-              <div class="size-10 bg-blue-500 rounded-full"></div>
-              <div class="size-10 bg-violet-500 -ml-1 rounded-full"></div>
+              <div
+                class="size-10 bg-[url(/assets/img/person-1.webp)] bg-cover bg-center rounded-full"
+              ></div>
+              <div
+                class="size-10 bg-[url(/assets/img/person-2.webp)] bg-cover bg-center -ml-1 rounded-full"
+              ></div>
               <div
                 class="size-10 bg-[#f2bf4a] -ml-1 rounded-full flex justify-center items-center"
               >
@@ -66,10 +70,18 @@
         <div
           class="h-15 p-3 gap-2 w-full flex items-center rounded-xl bg-gray-200"
         >
-          <div class="size-11 bg-green-500 rounded-xl"></div>
+          <div
+            class="size-11 bg-green-500 flex justify-center items-center rounded-xl"
+          >
+            <img
+              src="/assets/img/ikhsan.webp"
+              class="size-full object-cover object-center"
+              alt=""
+            />
+          </div>
           <div class="flex flex-col">
             <p class="text-base font-bold text-[#17623b]">MUHAMMAD IKHSAN</p>
-            <p class="text-sm text-gray-600">CEO Beon Craft</p>
+            <p class="text-sm text-gray-600">CEO Letris</p>
           </div>
         </div>
         <div
@@ -93,7 +105,18 @@
       </div>
       <div class="w-full h-80 flex flex-col gap-5">
         <div
-          class="w-full h-65 rounded-xl p-4 bg-gray-200 flex flex-col justify-between"
+          class="h-15 lg:order-2 order-1 p-3 gap-2 w-full flex items-center rounded-xl bg-[#f2bf4a]"
+        >
+          <div
+            class="size-11 bg-[url(/assets/img/jokowi-1.webp)] bg-center bg-cover rounded-xl"
+          ></div>
+          <div class="flex flex-col">
+            <p class="text-base font-bold text-[#17623b]">MULYONO</p>
+            <p class="text-sm text-gray-600">Ex-President</p>
+          </div>
+        </div>
+        <div
+          class="w-full lg:order-1 order-2 h-65 rounded-xl p-4 bg-gray-200 flex flex-col justify-between"
         >
           <p class="font-bold text-[#17623b]">
             "THE COFFE HERE AMAZING! ATMOSPHERE MAKES EVERY VISIT SPECIAL."
@@ -109,24 +132,17 @@
             <img src="assets/svg/coffe-beans.svg" class="w-12" alt="" />
           </div>
         </div>
-        <div
-          class="h-15 p-3 gap-2 w-full flex items-center rounded-xl bg-[#f2bf4a]"
-        >
-          <div class="size-11 bg-green-500 rounded-xl"></div>
-          <div class="flex flex-col">
-            <p class="text-base font-bold text-[#17623b]">MUHAMMAD IKHSAN</p>
-            <p class="text-sm text-gray-600">CEO Beon Craft</p>
-          </div>
-        </div>
       </div>
       <div class="w-full h-80 flex flex-col gap-5">
         <div
           class="h-15 p-3 gap-2 w-full flex items-center rounded-xl bg-[#dd5d36]"
         >
-          <div class="size-11 bg-green-500 rounded-xl"></div>
+          <div
+            class="size-11 bg-[url(/assets/img/billie-eilish.webp)] bg-center bg-cover rounded-xl"
+          ></div>
           <div class="flex flex-col">
-            <p class="text-base font-bold text-white">MUHAMMAD IKHSAN</p>
-            <p class="text-sm text-white">CEO Beon Craft</p>
+            <p class="text-base font-bold text-white">BILLIE EILISH</p>
+            <p class="text-sm text-white">Singer</p>
           </div>
         </div>
         <div

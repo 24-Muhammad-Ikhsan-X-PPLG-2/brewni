@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,11 +32,33 @@
     <script src="js/script.js"></script>
     <script>
       document.addEventListener("engine:ready", async () => {
+        const menuWrapper = document.getElementById("menu-wrapper");
+        const nextMenuBtn = document.getElementById("nextMenuBtn");
+        const prevMenuBtn = document.getElementById("prevMenuBtn");
+        const linksNavbar = document.querySelectorAll(".link-navbar");
+        const cardMenu = await callTemplate("card-menu");
         const loader = document.getElementById("loader");
         loader.classList.add("opacity-0", "pointer-events-none");
         const el = await callTemplate("card-why-choose-us");
         const cardsContainer = document.getElementById("cards-why-choose-us");
+        const menuBtns = document.querySelectorAll(".menuBtn");
+        const state = new Proxy(
+          {
+            menu: 0,
+          },
+          {
+            async set(target, key, value) {
+              menuWrapper.innerHTML = "";
+              await buildCardsMenu(menuWrapper, cardMenu, value);
+              menuBtns[target[key]].dataset.active = false;
+              target[key] = value;
+              menuBtns[target[key]].dataset.active = true;
+            },
+          },
+        );
         await buildCardsWhyChooseUs(cardsContainer, el);
+        menuBtns[0].dataset.active = true;
+        await buildCardsMenu(menuWrapper, cardMenu, 0);
         setTimeout(() => {
           loader.remove();
         }, 600);
@@ -58,6 +80,25 @@
               faq.classList.add("bg-[#dd5e35]");
             }
           });
+        });
+        menuBtns.forEach((item, idx) => {
+          item.addEventListener("click", () => {
+            state.menu = idx;
+          });
+        });
+        nextMenuBtn.addEventListener("click", () => {
+          if (state.menu === 3) {
+            state.menu = 0;
+            return;
+          }
+          state.menu = state.menu + 1;
+        });
+        prevMenuBtn.addEventListener("click", () => {
+          if (state.menu === 0) {
+            state.menu = 3;
+            return;
+          }
+          state.menu = state.menu - 1;
         });
       });
     </script>

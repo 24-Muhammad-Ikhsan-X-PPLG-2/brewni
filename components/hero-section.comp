@@ -1,5 +1,6 @@
 <template>
   <main
+    id="hero"
     class="min-h-screen overflow-hidden bg-[#17623b] pb-15 pt-32 flex flex-col justify-center items-center w-full"
   >
     <div class="grid lg:grid-cols-2 grid-cols-1 gap-15">
