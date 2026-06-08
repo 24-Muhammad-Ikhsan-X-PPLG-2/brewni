@@ -30,7 +30,7 @@ Website Kedai Kopi, tugas Ujian Praktik (UPRAK).
 
 ### Portfolio
 
-![Portfolio](./assets/img/screenshot/macbook-portfolio.webp)
+![Portfolio](./assets/img/screenshot/macbook-portofolio.webp)
 
 ### Gallery
 
