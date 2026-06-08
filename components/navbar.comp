@@ -6,17 +6,18 @@
     <div
       class="h-20 text-white md:px-14 px-4 flex items-center justify-between w-full"
     >
-      <p
-        class="text-4xl tracking-widest font-bebas-neue [text-shadow:3px_3px_0px_rgba(0,0,0,1)] font-black"
+      <a
+        href="#"
+        class="text-4xl tracking-widest font-bebas-neue [text-shadow:3px_3px_0px_rgba(0,0,0,1)] font-black cursor-pointer"
       >
         BREWNI
-      </p>
+      </a>
       <div class="lg:flex hidden items-center gap-6 text-sm font-normal">
         <a href="#about-us" class="link-navbar">ABOUT US</a>
         <a href="#products" class="link-navbar">PRODUCTS</a>
         <a href="#menu" class="link-navbar">MENU</a>
-        <a href="#blogs" class="link-navbar">BLOGS</a>
         <a href="#contact-us" class="link-navbar">CONTACT US</a>
+        <a href="#blogs" class="link-navbar">BLOGS</a>
       </div>
       <button
         class="px-7 py-3 bg-[#f2bf4a] border-2 border-[#28543A] rounded-2xl shadow-[0px_4px_0px_#28543A] font-bold text-[#28543A] uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"

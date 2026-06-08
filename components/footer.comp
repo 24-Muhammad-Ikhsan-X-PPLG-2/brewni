@@ -68,31 +68,31 @@
 
           <div class="mt-6 flex gap-2">
             <div
-              class="size-12 rounded-full bg-white/15 flex items-center justify-center"
+              class="size-12 cursor-pointer rounded-full bg-white/15 flex items-center justify-center"
             >
               <img src="assets/svg/facebook.svg" class="w-6" alt="" />
             </div>
 
             <div
-              class="size-12 rounded-full bg-white/15 flex items-center justify-center"
+              class="size-12 cursor-pointer rounded-full bg-white/15 flex items-center justify-center"
             >
               <img src="assets/svg/youtube.svg" class="w-6" alt="" />
             </div>
 
             <div
-              class="size-12 rounded-full bg-white/15 flex items-center justify-center"
+              class="size-12 cursor-pointer rounded-full bg-white/15 flex items-center justify-center"
             >
               <img src="assets/svg/tiktok.svg" class="w-6" alt="" />
             </div>
 
             <div
-              class="size-12 rounded-full bg-white/15 flex items-center justify-center"
+              class="size-12 cursor-pointer rounded-full bg-white/15 flex items-center justify-center"
             >
               <img src="assets/svg/snapchat.svg" class="w-6" alt="" />
             </div>
 
             <div
-              class="size-12 rounded-full bg-white/15 flex items-center justify-center"
+              class="size-12 cursor-pointer rounded-full bg-white/15 flex items-center justify-center"
             >
               <img src="assets/svg/messenger.svg" class="w-6" alt="" />
             </div>
@@ -103,10 +103,10 @@
             <h3 class="font-bold">PAGES</h3>
 
             <div class="mt-5 flex flex-col gap-2 font-light">
-              <a href="#">About Us</a>
-              <a href="#">Our Menu</a>
-              <a href="#">Features</a>
-              <a href="#">Gallery</a>
+              <a href="#about-us" class="hover:underline">About Us</a>
+              <a href="#products" class="hover:underline">Products</a>
+              <a href="#menu" class="hover:underline">Our Menu</a>
+              <a href="#contact-us" class="hover:underline">Contact Us</a>
             </div>
           </div>
 

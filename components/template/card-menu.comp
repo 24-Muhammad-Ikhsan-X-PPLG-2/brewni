@@ -1,5 +1,7 @@
 <template>
-  <div class="w-full h-fit bg-white rounded-xl card-menu">
+  <div
+    class="w-full opacity-0 translate-y-5 transition-all duration-300 h-fit bg-white rounded-xl card-menu"
+  >
     <img
       src="assets/img/coffee-1.webp"
       class="w-full h-60 object-cover object-center rounded-t-xl"

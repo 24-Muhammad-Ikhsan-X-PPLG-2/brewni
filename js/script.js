@@ -148,4 +148,12 @@ async function buildCardsMenu(cardWrapper, cardMenu, menu) {
     p[2].textContent = item.price;
     cardWrapper.appendChild(card);
   });
+  const cards = document.querySelectorAll(".card-menu");
+  requestAnimationFrame(() => {
+    cards.forEach((card, idx) => {
+      setTimeout(() => {
+        card.classList.remove("opacity-0", "translate-y-5");
+      }, 100 * idx);
+    });
+  });
 }
