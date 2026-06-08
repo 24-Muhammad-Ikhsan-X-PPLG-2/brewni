@@ -8,7 +8,7 @@ Website Kedai Kopi, tugas Ujian Praktik (UPRAK).
 
 ![Hero](./assets/img/screenshot/macbook-hero.webp)
 
-### Menu / Navigation
+### Menu
 
 ![Menu](./assets/img/screenshot/macbook-menu.webp)
 
