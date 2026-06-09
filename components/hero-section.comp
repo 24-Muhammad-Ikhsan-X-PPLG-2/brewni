@@ -19,11 +19,13 @@
           Start your day right with freshly brewed coffee made to energize your
           mornings and satisfy your senses.
         </p>
-        <button
-          class="px-7 mt-5 py-3 bg-[#dd5d36] border-2 border-gray-800 rounded-2xl shadow-[0px_4px_0px_#1f2937] font-bold text-white uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
-        >
-          SEE THE MENU
-        </button>
+        <a href="#menu">
+          <button
+            class="px-7 mt-5 py-3 bg-[#dd5d36] border-2 border-gray-800 rounded-2xl shadow-[0px_4px_0px_#1f2937] font-bold text-white uppercase transition-all cursor-pointer hover:translate-y-[2px] hover:shadow-[2px_2px_0px_#28543A] active:scale-95"
+          >
+            SEE THE MENU
+          </button>
+        </a>
         <div class="grid grid-cols-3 mt-10 gap-5 pb-5">
           <div
             class="md:w-full w-fit flex flex-col justify-center items-center border border-white/30 rounded-xl p-3"
